@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "changelog1": "standard-version --first-version",
+    "changelog1": "standard-version --first-release",
     "changelog2": "auto-changelog",
     "changelog3": "changelog generate"
   },
