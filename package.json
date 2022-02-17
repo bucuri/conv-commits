@@ -2,6 +2,11 @@
   "name": "conv-commits",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bucuri/conv-commits"
+  },
+  "homepage": "https://github.com/bucuri/conv-commits",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -15,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "changelog1": "standard-version --first-version",
+    "changelog2": "auto-changelog",
+    "changelog3": "changelog generate"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.4.0",
+    "changelog": "^1.4.2",
+    "standard-version": "^9.3.2"
   }
 }
